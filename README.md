@@ -29,7 +29,7 @@
 * sentiment_model.py: 情感分类模型
 * w2v_model.py: 训练词向量
 
-** 执行顺序：
+## 执行顺序：
 ```
 1.将原始数据放入data文件夹
 2.运行ner_corpus.py生成ner模型训练语料
@@ -40,11 +40,11 @@
 7.提交
 ```
 
-** 提交结果：
+## 提交结果：
 * ner.txt: 0.306726656807222
 * result.txt: 0.314122307927767
 
-** 相关资料：
+## 相关资料：
 * https://github.com/wangbin4317/BDCI_Car_2018-master 
 * https://github.com/binzhouchn/capsule-pytorch                
 * https://github.com/idorce/sentiment-analysis-ccf-bdci        
@@ -52,7 +52,7 @@
 * https://github.com/songyouwei/SA-DL                                     
 * https://github.com/pengshuang/AI-Comp
 
-** 给start的都能进前排哦~O(∩_∩)O哈哈~
+## 给start的都能进前排哦~O(∩_∩)O哈哈~
 
 
 
