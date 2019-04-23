@@ -52,7 +52,7 @@
 * https://github.com/songyouwei/SA-DL                                     
 * https://github.com/pengshuang/AI-Comp
 
-## 给start的都能进前排哦~O(∩_∩)O哈哈~
+## 给start的都能进前排哦 O(∩_∩)O哈哈~
 
 
 
