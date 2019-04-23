@@ -40,6 +40,10 @@
 7.提交
 ```
 
+** 提交结果：
+* ner.txt: 0.306726656807222
+* result.txt: 0.314122307927767
+
 ** 相关资料：
 * https://github.com/wangbin4317/BDCI_Car_2018-master 
 * https://github.com/binzhouchn/capsule-pytorch                
