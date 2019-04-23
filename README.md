@@ -1,6 +1,6 @@
 # SOHU-baseline
 # 搜狐校园算法大赛baseline
-  [比赛网址]()
+  [比赛网址](https://biendata.com/competition/sohu2019/)
 
 ## 代码运行环境：
    * python 3.6
