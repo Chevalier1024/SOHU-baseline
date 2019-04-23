@@ -51,6 +51,7 @@
 * https://github.com/yw411/aspect_sentiment_classification        
 * https://github.com/songyouwei/SA-DL                                     
 * https://github.com/pengshuang/AI-Comp
+* https://github.com/bojone/kg-2019-baseline
 
 ## 给start的都能进前排哦 O(∩_∩)O哈哈~
 
