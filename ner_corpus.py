@@ -34,11 +34,11 @@ with open('./data/coreEntityEmotion_train.txt', encoding='utf-8') as f:
 id2emotion = {i:j for i,j in enumerate(emotion)}
 emotion2id = {j:i for i,j in id2emotion.items()}
 
-with open('./process_data/emotion.json', 'w', encoding='utf-8') as f:
+with open('./ner_data/emotion.json', 'w', encoding='utf-8') as f:
     json.dump([id2emotion, emotion2id], f, indent=4, ensure_ascii=False)
 
 
-with codecs.open('./process_data/all_train_data.json', 'w', encoding='utf-8') as f:
+with codecs.open('./ner_data/all_train_data.json', 'w', encoding='utf-8') as f:
     json.dump(data, f, indent=4, ensure_ascii=False)
 
 train_data, test_data = train_test_split(data, random_state=2019, test_size=0.2)
@@ -57,9 +57,9 @@ train_data, test_data = train_test_split(data, random_state=2019, test_size=0.2)
 #             }
 #         )
 
-with codecs.open('./process_data/train_data.json', 'w', encoding='utf-8') as f:
+with codecs.open('./ner_data/train_data.json', 'w', encoding='utf-8') as f:
     json.dump(train_data, f, indent=4, ensure_ascii=False)
-with codecs.open('./process_data/dev_data.json', 'w', encoding='utf-8') as f:
+with codecs.open('./ner_data/dev_data.json', 'w', encoding='utf-8') as f:
     json.dump(test_data, f, indent=4, ensure_ascii=False)
 
 test_data = []
@@ -78,11 +78,11 @@ with open('./data/coreEntityEmotion_test_stage1.txt', encoding='utf-8') as f:
         for c in a['title']:
             chars[c] = chars.get(c, 0) + 1
 
-with codecs.open('./process_data/test_data.json', 'w', encoding='utf-8') as f:
+with codecs.open('./ner_data/test_data.json', 'w', encoding='utf-8') as f:
     json.dump(test_data, f, indent=4, ensure_ascii=False)
 
 
-with codecs.open('./process_data/all_chars.json', 'w', encoding='utf-8') as f:
+with codecs.open('./ner_data/all_chars.json', 'w', encoding='utf-8') as f:
     chars = {i:j for i,j in chars.items() if j >= min_count}
     id2char = {i+2:j for i,j in enumerate(chars)} # padding: 0, unk: 1
     char2id = {j:i for i,j in id2char.items()}
